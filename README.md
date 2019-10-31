@@ -1,10 +1,8 @@
-# CashAddr.js: The new Bitcoin Cash address format for Node.js and web browsers.
+# SLP CashAddr.js: The new Bitcoin Cash address format for Node.js and web browsers.
 
-[![Build Status](https://travis-ci.org/bitcoincashjs/cashaddrjs.svg?branch=master)](https://travis-ci.org/bitcoincashjs/cashaddrjs) [![Coverage Status](https://coveralls.io/repos/github/bitcoincashjs/cashaddrjs/badge.svg?branch=master)](https://coveralls.io/github/bitcoincashjs/cashaddrjs?branch=master)
+[![NPM](https://nodei.co/npm/cashaddrjs.png?downloads=true)](https://nodei.co/npm/cashaddrjs-slp/)
 
-[![NPM](https://nodei.co/npm/cashaddrjs.png?downloads=true)](https://nodei.co/npm/cashaddrjs/)
-
-JavaScript implementation for the new CashAddr address format for Bitcoin Cash.
+JavaScript implementation for the new CashAddr address format for Bitcoin Cash and SLP.
 
 Compliant with the original CashAddr [specification](https://github.com/Bitcoin-UAHF/spec/blob/master/cashaddr.md) which improves upon [BIP 173](https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki).
 
@@ -15,13 +13,13 @@ Compliant with the original CashAddr [specification](https://github.com/Bitcoin-
 ### Using NPM
 
 ```bsh
-$ npm install --save cashaddrjs
+$ npm install --save cashaddrjs-slp
 ```
 
 ### Using Bower
 
 ```bsh
-$ bower install --save cashaddrjs
+$ bower install --save cashaddrjs-slp
 ```
 
 ### Manually

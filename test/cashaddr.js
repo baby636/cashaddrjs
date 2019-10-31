@@ -13,7 +13,7 @@ import Random from 'random-js';
 
 describe('cashaddr', () => {
 
-  const NETWORKS = ['bitcoincash', 'bchtest', 'bchreg'];
+  const NETWORKS = ['bitcoincash', 'bchtest', 'bchreg', 'slptest', 'slpreg'];
   
   const ADDRESS_TYPES = ['P2PKH', 'P2SH'];
   
