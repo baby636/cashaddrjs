@@ -1,12 +1,12 @@
 # SLP CashAddr.js: The new Bitcoin Cash address format for Node.js and web browsers.
 
-[![NPM](https://nodei.co/npm/cashaddrjs.png?downloads=true)](https://nodei.co/npm/cashaddrjs-slp/)
+[![NPM](https://nodei.co/npm/cashaddrjs-slp.png?downloads=true)](https://nodei.co/npm/cashaddrjs-slp/)
 
 JavaScript implementation for the new CashAddr address format for Bitcoin Cash and SLP.
 
 Compliant with the original CashAddr [specification](https://github.com/Bitcoin-UAHF/spec/blob/master/cashaddr.md) which improves upon [BIP 173](https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki).
 
-*Note:* This is a JavaScript implementation of the CashAddr format specification. If you are looking for a general purpose Bitcoin Cash address translation library, check out the easy-to-use and well-tested [BchAddr.js](https://github.com/bitcoincashjs/bchaddrjs).
+*Note:* This is a JavaScript implementation of the CashAddr format specification. If you are looking for a general purpose Bitcoin Cash address translation library, check out the easy-to-use and well-tested [BchAddr.js](https://github.com/simpleledger/bchaddrjs).
 
 ## Installation
 
@@ -24,14 +24,14 @@ $ bower install --save cashaddrjs-slp
 
 ### Manually
 
-You may also download the distribution file manually and place it within your third-party scripts directory: [dist/cashaddrjs-0.2.9.min.js](https://cdn.rawgit.com/bitcoincashjs/cashaddrjs/master/dist/cashaddrjs-0.2.9.min.js).
+You may also download the distribution file manually and place it within your third-party scripts directory: [dist/cashaddrjs-slp-0.2.12.min.js](https://cdn.rawgit.com/simpleledger/cashaddrjs/master/dist/cashaddrjs-slp-0.2.12.min.js).
 
 ## Usage
 
 ### In Node.js
 
 ```javascript
-const cashaddr = require('cashaddrjs');
+const cashaddr = require('cashaddrjs-slp');
 const address = 'bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a';
 const { prefix, type, hash } = cashaddr.decode(address);
 console.log(prefix); // 'bitcoincash'
@@ -40,7 +40,7 @@ console.log(hash); // Uint8Array [ 118, 160, ..., 115 ]
 console.log(cashaddr.encode(prefix, type, hash)); // 'bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a'
 ```
 
-*Note:* This is a JavaScript implementation of the CashAddr format specification. If you are looking for an easy-to-use and well-tested library to translate between different formats, check out [BchAddr.js](https://github.com/bitcoincashjs/bchaddrjs).
+*Note:* This is a JavaScript implementation of the CashAddr format specification. If you are looking for an easy-to-use and well-tested library to translate between different formats, check out [BchAddr.js](https://github.com/simpleledger/bchaddrjs).
 
 ### Browser
 
@@ -52,7 +52,7 @@ You may include a script tag in your HTML and the `cashaddr` module will be defi
 <html>
   <head>
     ...
-    <script src="https://cdn.rawgit.com/bitcoincashjs/cashaddrjs/master/dist/cashaddrjs-0.2.9.min.js"></script>
+    <script src="https://cdn.rawgit.com/simpleledger/cashaddrjs/master/dist/cashaddrjs-slp-0.2.12.min.js"></script>
   </head>
   ...
 </html>
@@ -68,4 +68,4 @@ $ npm run docs
 
 ### Online
 
-Browse automatically generated jsdocs [online](https://cdn.rawgit.com/bitcoincashjs/cashaddrjs/master/docs/index.html).
+Browse automatically generated jsdocs [online](https://cdn.rawgit.com/simpleledger/cashaddrjs/master/docs/index.html).
