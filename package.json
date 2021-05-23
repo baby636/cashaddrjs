@@ -48,7 +48,7 @@
     "coveralls": "^3.0.2",
     "eslint": "^4.19.1",
     "http-server": "^0.10.0",
-    "jsdoc": "^3.5.5",
+    "jsdoc": "^3.6.6",
     "lodash": "^4.17.10",
     "mocha": "^4.0.1",
     "mocha-eslint": "^4.1.0",
